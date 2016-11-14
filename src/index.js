@@ -73,7 +73,8 @@ class FetchDemo extends React.Component {
             <Row>
               <Col s={12} m={12}>
                 <Row>
-                  <h1>{`Grabbing Stats From: ${this.state.espnURL}`}</h1>
+                  <h3>Grabbing Stats From:  </h3>
+                  <h5>{this.state.espnURL}</h5>
                 </Row>
                 <Row s={12} m={10} offset='m2'>
                   <Input s={6} value={this.state.espnURL} onChange={this.changeHeader.bind(this)} label="Please Enter an ESPN URL" />
